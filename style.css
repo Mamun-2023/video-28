@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  padding: 5px;
+  margin: 32px;
+  position: absolute;
+  border: 3px solid seagreen;
+}
+.box {
+  border: 3px solid rgb(236, 23, 19);
+  height: 123px;
+  width: 80vw;
+}
+
+.box1 {
+  background-color: blueviolet;
+}
+.box2 {
+  background-color: cadetblue;
+  position: relative;
+  top: 30px;
+  left: 50px;
+  z-index: 1;
+}
+.box3 {
+  background-color: cornflowerblue;
+  position: absolute;
+  top: 35px;
+}
+.box4 {
+  background-color: rgb(210, 168, 30);
+  position: fixed;
+  bottom: 2px;
+  left: 10vw;
+  height: 230px;
+}
+
+.box5 {
+  position: sticky;
+  top: 10px;
+  height: 111px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(124, 128, 198);
+
+}
